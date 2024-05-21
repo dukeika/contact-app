@@ -8,7 +8,7 @@ import SiteNav from './Components/Common/SiteNav';
 import HomePage from './Components/home/HomePage';
 import LoginPage from './Components/auth/LoginPage';
 import RegisterPage from './Components/auth/RegisterPage';
-
+import ContactPage from './Components/contacts/Contact';
 
 function App() {
   return (
@@ -19,6 +19,8 @@ function App() {
         <Route path="/" exact={true} element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+
       </Routes>
       <SiteFooter />  
     </div>
